@@ -1,0 +1,12 @@
+{
+    "caixa": [
+        {
+            "caixa_id": "1",
+            "name": "Ivaneudo",
+            "cpf": "123.456.789-10",
+            "telefone": 85989625746,
+            "email": "ivaneudo@gmail.com",
+            "senha": 1234
+        }
+    ]
+}
