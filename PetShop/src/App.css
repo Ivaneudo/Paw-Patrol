@@ -1,0 +1,38 @@
+:root {
+  --AzulCarinho: #E6F2FF;
+  --Verde: #4CAF50;
+  --Cinza: #6c6b6b;
+  --CinzaClarinho: #b7b4b4;
+  --Laranja: #FF9800;
+  --gradiente: linear-gradient(#CFE2F8, #5A799A)
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-image: var(--gradiente);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Estilização do botão */
+#Enter {
+  width: 200px;
+  height: 80px;
+  border-radius: 25px;
+  margin-top: 2rem;
+  font-size: 24px;
+  color: var(--CinzaClarinho);
+  background-color: var(--Cinza);
+  border: solid, 1px;
+  cursor: pointer;
+  transition: .5s;
+}
+
+/* Mudando a cor do botão ao ter o mouse sobre ele  */
+#Enter:hover {
+  background-color: var(--Verde);
+  color: black;
+} 

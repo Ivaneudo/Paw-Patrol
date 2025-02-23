@@ -1,0 +1,20 @@
+/* Determinando o tamanho da logo */
+
+
+.logo img {
+    width: 250px;
+}
+
+/* Definindo tamanho, e formatação do texto de boas vindas */
+.BoasVindas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.BoasVindas h1 {
+    font-size: 2rem;
+    width: 600px;
+    text-align: center;
+    color: black    ;
+}
